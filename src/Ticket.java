@@ -12,6 +12,7 @@ public class Ticket
         this.yearsOfExperienceRequired = yearsOfExperienceRequired;
         this.priority = priority;
         this.estimatedTimeToCompletionInHours = estimatedTimeToCompletionInHours;
+        this.assignee = null;
     }
 
     public String getDescription()
