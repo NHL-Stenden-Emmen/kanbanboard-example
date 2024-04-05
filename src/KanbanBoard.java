@@ -58,4 +58,3 @@ public class KanbanBoard
         return (double) totalTicketsDone / totalTickets;
     }
 }
-
