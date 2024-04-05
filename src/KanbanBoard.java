@@ -50,6 +50,12 @@ public class KanbanBoard
             }
         }
 
+        if (totalTickets == 0)
+        {
+            return 0;
+        }
+
         return (double) totalTicketsDone / totalTickets;
     }
 }
+
